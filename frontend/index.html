@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Farm Bot</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <h1>Farm Bot</h1>
+
+  <button id="runBtn">Uruchom cykl</button>
+  <button id="statusBtn">Pobierz status</button>
+  <h3>Sadzenie ogrodu</h3>
+
+<select id="pidSelect">
+  <option value="17">Zboże</option>
+  <option value="18">Koniczyna</option>
+  <option value="19">Żyto</option>
+  <option value="20">Pszenica</option>
+</select>
+
+<button id="gardenBtn">Sadź i podlej</button>
+
+  <div id="output"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
